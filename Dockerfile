@@ -1,8 +1,8 @@
 FROM golang:latest as build
 ENV CGO_ENABLED=0
 RUN go get -v github.com/golang/dep/cmd/dep
-RUN go get -d -v github.com/bitly/oauth2_proxy
-WORKDIR /go/src/github.com/bitly/oauth2_proxy
+WORKDIR /go/src/zvelo.io/oauth2_proxy
+COPY . .
 RUN dep ensure
 RUN go install -v
 

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bitly/oauth2_proxy/providers"
 	oidc "github.com/coreos/go-oidc"
 	"github.com/mbland/hmacauth"
+	"zvelo.io/oauth2_proxy/providers"
 )
 
 // Configuration Options that can be set by Command Line Flag, or Config File
@@ -131,7 +131,7 @@ func (o *Options) Validate() error {
 		insecureTransport := &http.Transport{
 			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 		}
-		http.DefaultClient = &http.Client{Transport: insecureTransport}
+		http.DefaultTransport = insecureTransport
 	}
 
 	msgs := make([]string, 0)
