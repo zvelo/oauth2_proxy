@@ -4,8 +4,8 @@
 [[projects]]
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
-  revision = "4b98a6370e36d7a85192e7bad08a4ebd82eac2a8"
-  version = "v0.20.0"
+  revision = "29f476ffa9c4cd4fd14336b6043090ac1ad76733"
+  version = "v0.21.0"
 
 [[projects]]
   name = "github.com/BurntSushi/toml"
@@ -23,7 +23,7 @@
   branch = "v2"
   name = "github.com/coreos/go-oidc"
   packages = ["."]
-  revision = "065b426bd41667456c1a924468f507673629c46b"
+  revision = "1180514eaf4d9f38d0d19eef639a1d695e066e72"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -79,7 +79,7 @@
     "ed25519",
     "ed25519/internal/edwards25519"
   ]
-  revision = "88942b9c40a4c9d203b82b3731787b672d6e809b"
+  revision = "b0697eccbea9adec5b7ba8008f4c33d98d733388"
 
 [[projects]]
   branch = "master"
@@ -88,7 +88,7 @@
     "context",
     "context/ctxhttp"
   ]
-  revision = "6078986fec03a1dcc236c34816c71b0e05018fda"
+  revision = "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
 
 [[projects]]
   branch = "master"
@@ -100,13 +100,13 @@
     "jws",
     "jwt"
   ]
-  revision = "fdc9e635145ae97e6c2cb777c48305600cf515cb"
+  revision = "6881fee410a5daf86371371f9ad451b95e168b71"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "13d03a9a82fba647c21a0ef8fba44a795d0f0835"
+  revision = "bb9c189858d91f42db229b04d45a4c3d23a7662a"
 
 [[projects]]
   branch = "master"
@@ -117,7 +117,7 @@
     "googleapi",
     "googleapi/internal/uritemplates"
   ]
-  revision = "a213db537ac9b393526194a5c85ad6e546f7923f"
+  revision = "8b8c1d4168b3aa7d5fbdb9eb159a1a7ac0cc146d"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -149,8 +149,8 @@
     "cipher",
     "json"
   ]
-  revision = "552e98edab5d620205ff1a8960bf52a5a10aad03"
-  version = "v2.1.5"
+  revision = "76dd09796242edb5b897103a75df2645c028c960"
+  version = "v2.1.6"
 
 [solve-meta]
   analyzer-name = "dep"

@@ -12,8 +12,8 @@
   version = "0.5.0"
 
 [[constraint]]
-  branch = "v2"
   name = "github.com/coreos/go-oidc"
+  branch = "v2"
 
 [[constraint]]
   name = "github.com/mbland/hmacauth"
